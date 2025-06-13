@@ -1,2 +1,14 @@
-# imrankhankhan308.github.io
- Meri shadi ki website banane ke liye repository  Shaadi app ke liye HTML website  Personal marriage website project
+
+
+<!DOCTYPE html>
+<html lang="ur">
+<head>
+  <meta charset="UTF-8">
+  <title>میری شادی کی ویب سائٹ</title>
+</head>
+<body style="text-align: center; font-family: sans-serif;">
+  <h1>خوش آمدید!</h1>
+  <p>یہ میری ذاتی شادی کی ویب سائٹ ہے۔</p>
+  <p>جلد ہی یہاں مزید تفصیلات شامل کی جائیں گی۔</p>
+</body>
+</html>
