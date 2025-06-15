@@ -1,15 +1,33 @@
 
 body {
-    font-family: 'Noto Nastaliq Urdu', serif;
-    background-color: #f9f0ff;
-    color: #333;
-    text-align: center;
-    padding: 20px;
+  font-family: 'Noto Nastaliq Urdu', serif;
+  direction: rtl;
+  background-color: #fff8f0;
+  color: #333;
+  margin: 0;
+  padding: 0;
 }
-a {
-    color: blue;
-    text-decoration: none;
+
+header, nav, main {
+  padding: 20px;
 }
-a:hover {
-    text-decoration: underline;
+
+header {
+  background-color: #ffccd5;
+  text-align: center;
+}
+
+nav {
+  background-color: #ffe5ec;
+  text-align: center;
+}
+
+nav a {
+  margin: 0 15px;
+  text-decoration: none;
+  color: #b30059;
+}
+
+main {
+  background-color: #fff;
 }
