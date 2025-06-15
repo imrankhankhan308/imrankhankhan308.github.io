@@ -1,0 +1,31 @@
+
+body {
+    font-family: 'Noto Naskh Arabic', serif;
+    background-color: #fdf6f0;
+    margin: 0;
+    padding: 0;
+    direction: rtl;
+}
+
+.container {
+    max-width: 600px;
+    margin: 40px auto;
+    background: #fff;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    text-align: right;
+}
+
+h1 {
+    color: #c14444;
+    text-align: center;
+}
+
+.info-box {
+    background: #fcf2e8;
+    margin-top: 20px;
+    padding: 15px;
+    border-right: 5px solid #c14444;
+    border-radius: 10px;
+}
