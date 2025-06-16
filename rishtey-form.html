@@ -1,0 +1,76 @@
+
+<!DOCTYPE html>
+<html lang="ur" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <title>رشتہ فارم</title>
+    <style>
+        body {
+            font-family: 'Noto Nastaliq Urdu Draft', 'Arial', sans-serif;
+            background-color: #f0f0f0;
+            direction: rtl;
+            text-align: right;
+            padding: 20px;
+        }
+        .container {
+            background-color: white;
+            max-width: 600px;
+            margin: auto;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0px 0px 10px #ccc;
+        }
+        h2 {
+            color: #333;
+        }
+        label {
+            display: block;
+            margin: 10px 0 5px;
+        }
+        input, select, button {
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 15px;
+            border-radius: 5px;
+            border: 1px solid #aaa;
+        }
+        button {
+            background-color: #007BFF;
+            color: white;
+            border: none;
+        }
+        button:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>رشتہ فارم</h2>
+        <form action="https://formspree.io/f/xpzvzbzp" method="POST">
+            <label for="name">نام:</label>
+            <input type="text" id="name" name="نام" required>
+
+            <label for="age">عمر:</label>
+            <input type="number" id="age" name="عمر" required>
+
+            <label for="gender">جنس:</label>
+            <select id="gender" name="جنس" required>
+                <option value="لڑکا">لڑکا</option>
+                <option value="لڑکی">لڑکی</option>
+            </select>
+
+            <label for="education">تعلیم:</label>
+            <input type="text" id="education" name="تعلیم" required>
+
+            <label for="city">شہر:</label>
+            <input type="text" id="city" name="شہر" required>
+
+            <label for="religion">مذہب:</label>
+            <input type="text" id="religion" name="مذہب" required>
+
+            <button type="submit">فارم جمع کریں</button>
+        </form>
+    </div>
+</body>
+</html>
