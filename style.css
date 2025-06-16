@@ -1,33 +1,24 @@
 
 body {
-  font-family: 'Noto Nastaliq Urdu', serif;
-  direction: rtl;
-  background-color: #fff8f0;
-  color: #333;
-  margin: 0;
-  padding: 0;
+    font-family: 'Noto Nastaliq Urdu', serif;
+    background-color: #f8f8f8;
+    color: #333;
+    text-align: right;
+    padding: 20px;
 }
-
-header, nav, main {
-  padding: 20px;
-}
-
-header {
-  background-color: #ffccd5;
-  text-align: center;
-}
-
-nav {
-  background-color: #ffe5ec;
-  text-align: center;
-}
-
 nav a {
-  margin: 0 15px;
-  text-decoration: none;
-  color: #b30059;
+    margin: 0 10px;
+    text-decoration: none;
+    color: #2c3e50;
 }
-
-main {
-  background-color: #fff;
+header {
+    background-color: #f1c40f;
+    padding: 10px;
+    border-radius: 8px;
+}
+h1, h2 {
+    color: #2c3e50;
+}
+form input {
+    margin: 5px;
 }
