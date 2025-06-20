@@ -1,30 +1,44 @@
+
 <!DOCTYPE html>
 <html lang="ur">
 <head>
   <meta charset="UTF-8">
-  <title>profile-form.html</title>
-  <link rel="stylesheet" href="style.css">
+  <title>پروفائل بنائیں</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
   <header>
     <h1>ہماری شادی میں خوش آمدید</h1>
-    
-<nav>
-  <ul>
-    <li><a href="index.html">ہوم</a></li>
-    <li><a href="profile-form.html">پروفائل بنائیں</a></li>
-    <li><a href="profile.html">پروفائل دیکھیں</a></li>
-    <li><a href="contact.html">رابطہ</a></li>
-    <li><a href="about.html">ایپ کا مقصد</a></li>
-    <li><a href="gallery.html">گیلری</a></li>
-    <li><a href="events.html">تقریبیں</a></li>
-  </ul>
-</nav>
-
+    <nav>
+      <ul>
+        <li><a href="index.html">ہوم</a></li>
+        <li><a href="profile-form.html">پروفائل بنائیں</a></li>
+        <li><a href="view-profiles.html">رشتے دیکھیں</a></li>
+        <li><a href="contact.html">رابطہ</a></li>
+        <li><a href="purpose.html">ایپ کا مقصد</a></li>
+      </ul>
+    </nav>
   </header>
   <main>
-    <h2>Profile Form کا مواد</h2>
-    <p>یہ صفحہ جلد مکمل کیا جائے گا۔</p>
+    <h2>اپنا رشتہ درج کریں</h2>
+    <form action="https://formsubmit.co/imrankhankhan123456790@gmail.com" method="POST">
+      <label>نام:</label><br>
+      <input type="text" name="name" required><br><br>
+      <label>عمر:</label><br>
+      <input type="number" name="age" required><br><br>
+      <label>جنس:</label><br>
+      <select name="gender">
+        <option value="لڑکا">لڑکا</option>
+        <option value="لڑکی">لڑکی</option>
+      </select><br><br>
+      <label>تعلیم:</label><br>
+      <input type="text" name="education"><br><br>
+      <label>شہر:</label><br>
+      <input type="text" name="city"><br><br>
+      <label>مذہب:</label><br>
+      <input type="text" name="religion"><br><br>
+      <button type="submit">جمع کریں</button>
+    </form>
   </main>
   <footer>
     <p>&copy; 2025 ہماری شادی</p>
